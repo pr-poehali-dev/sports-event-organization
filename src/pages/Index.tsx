@@ -41,11 +41,11 @@ export default function Index() {
                 и физкультурно-массовых мероприятий по всей России
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <Button size="lg" className="text-lg px-8 py-6">
+                <Button size="lg" className="text-lg px-8 py-6 bg-primary hover:bg-primary/90">
                   <Icon name="Calendar" className="mr-2 h-5 w-5" />
                   Заказать мероприятие
                 </Button>
-                <Button variant="outline" size="lg" className="text-lg px-8 py-6">
+                <Button variant="outline" size="lg" className="text-lg px-8 py-6 border-secondary text-secondary hover:bg-secondary hover:text-secondary-foreground">
                   <Icon name="Play" className="mr-2 h-5 w-5" />
                   Посмотреть портфолио
                 </Button>
@@ -307,7 +307,7 @@ export default function Index() {
           </div>
           
           <div className="text-center mt-12">
-            <Button size="lg" className="text-lg px-8 py-6">
+            <Button size="lg" className="text-lg px-8 py-6 bg-accent hover:bg-accent/90">
               <Icon name="MessageCircle" className="mr-2 h-5 w-5" />
               Обсудить проект
             </Button>
